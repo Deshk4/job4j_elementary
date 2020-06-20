@@ -1,16 +1,16 @@
 package ru.job4j.condition;
 
 public class TrgArea {
-    public static double area(double a, double b, double c){
+    public static double area(double a, double b, double c) {
 
         double p = (a + b + c) / 2;
-        double S = Math.sqrt(p * (p-a) * (p-b) *(p-c));
+        double area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
 
-        return S;
+        return area;
     }
 
     public static void main(String[] args) {
-        double result = area(13,14,15);
-        System.out.println(result);
+        double result = area(13, 14, 15);
+        System.out.println("Площадь треугольника = " + result);
     }
 }
