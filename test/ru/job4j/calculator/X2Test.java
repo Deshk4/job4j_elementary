@@ -24,9 +24,9 @@ public class X2Test {
         int b = 1;
         int c = 1;
         int x = 1;
-        int expectedAllOne = 2;
-        int outAllOne = X2.calc(a, b, c, x);
-        assertThat(outAllOne, is(expectedAllOne));
+        int expectedAZero = 2;
+        int outAZero = X2.calc(a, b, c, x);
+        assertThat(outAZero, is(expectedAZero));
     }
 
     @Test
@@ -35,9 +35,9 @@ public class X2Test {
         int b = 1;
         int c = 0;
         int x = 1;
-        int expectedAllOne = 2;
-        int outAllOne = X2.calc(a, b, c, x);
-        assertThat(outAllOne, is(expectedAllOne));
+        int expectedCZero = 2;
+        int outCZero = X2.calc(a, b, c, x);
+        assertThat(outCZero, is(expectedCZero));
     }
 
     @Test
@@ -46,8 +46,8 @@ public class X2Test {
         int b = 1;
         int c = 1;
         int x = 0;
-        int expectedAllOne = 1;
-        int outAllOne = X2.calc(a, b, c, x);
-        assertThat(outAllOne, is(expectedAllOne));
+        int expectedXZero = 1;
+        int outXZero = X2.calc(a, b, c, x);
+        assertThat(outXZero, is(expectedXZero));
     }
 }
