@@ -12,9 +12,4 @@ public class CheckPrimeNumber {
         }
         return prime;
     }
-
-    public static void main(String[] args) {
-        boolean what = check(13);
-        System.out.println(what);
-    }
 }
