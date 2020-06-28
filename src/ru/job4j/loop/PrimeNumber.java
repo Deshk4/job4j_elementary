@@ -10,10 +10,5 @@ public class PrimeNumber {
         }
         return count;
     }
-
-    public static void main(String[] args) {
-        int result = calc(2);
-        System.out.println(result);
-    }
 }
 
