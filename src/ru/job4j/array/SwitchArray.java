@@ -5,6 +5,7 @@ public class SwitchArray {
         int temp = array[dest];
         array[source] = array[dest];
         array[dest] = temp;
+        return array;
     }
 
     public static int[] swapBorder(int[] array) {
@@ -19,11 +20,14 @@ public class SwitchArray {
         int[] rsl = swapBorder(nums);
         for (int i = 0; i < rsl.length; i++) {
             System.out.println(rsl[i]);
-        
-        //int[] result = swap(nums, 2, 4);
-          //  for (int j = 0; j < ; j++) {
-                
-            //}
+
+            }
+        System.out.println();
+        int[] result = swap(nums, 2, 4);
+        for (int j = 0; j < result.length; j++) {
+            System.out.println(result[j]);
         }
+
     }
 }
+
